@@ -1,0 +1,45 @@
+country,model,rmse,mae,params,selected
+all,baseline,28179.991896723215,23327.795784482754,{},False
+all,ridge,24566.5233326148,19768.419431352748,{'reg__alpha': 1000.0},True
+all,random_forest,44018.82285702718,38868.110410589026,"{'max_depth': 4, 'min_samples_leaf': 5, 'n_estimators': 200}",False
+all,gradient_boosting,40823.83412767063,35901.73577377989,"{'learning_rate': 0.05, 'max_depth': 2, 'n_estimators': 100}",False
+eire,baseline,6023.752372191752,5076.60020320197,{},False
+eire,ridge,4947.804987822533,4225.617119940579,{'reg__alpha': 1000.0},False
+eire,random_forest,5063.950659793273,3875.142263080695,"{'max_depth': 4, 'min_samples_leaf': 5, 'n_estimators': 200}",False
+eire,gradient_boosting,4741.048009521924,3740.086890581062,"{'learning_rate': 0.05, 'max_depth': 2, 'n_estimators': 100}",True
+france,baseline,1579.9533185385058,1331.3263054187194,{},False
+france,ridge,1235.9582174810778,1036.6858406549168,{'reg__alpha': 1000.0},False
+france,random_forest,1221.2874494338664,891.7654249850095,"{'max_depth': 8, 'min_samples_leaf': 1, 'n_estimators': 200}",False
+france,gradient_boosting,1189.2669716700923,891.5826976384765,"{'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100}",True
+germany,baseline,878.1673223529568,709.9104495073891,{},False
+germany,ridge,574.5108247285784,473.05354925626443,{'reg__alpha': 100.0},True
+germany,random_forest,766.0329282807725,598.1161973126887,"{'max_depth': 4, 'min_samples_leaf': 1, 'n_estimators': 200}",False
+germany,gradient_boosting,844.4398792917151,684.2699169871748,"{'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100}",False
+hong_kong,baseline,2838.0022929859806,1578.7639285714288,{},False
+hong_kong,ridge,2129.7846855452035,1553.4814153781294,{'reg__alpha': 100.0},False
+hong_kong,random_forest,1346.2582667832194,692.9004949438148,"{'max_depth': 4, 'min_samples_leaf': 1, 'n_estimators': 100}",True
+hong_kong,gradient_boosting,1566.2775511757407,1017.7923512077957,"{'learning_rate': 0.05, 'max_depth': 2, 'n_estimators': 100}",False
+netherlands,baseline,401.81448381719935,308.0040701970443,{},False
+netherlands,ridge,299.08827673767826,234.88883951935114,{'reg__alpha': 100.0},True
+netherlands,random_forest,382.34552159678805,305.7566972205945,"{'max_depth': 4, 'min_samples_leaf': 5, 'n_estimators': 200}",False
+netherlands,gradient_boosting,382.9212275132014,316.70578902837025,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}",False
+norway,baseline,1166.2904604637463,857.6148152709361,{},True
+norway,ridge,1659.3558339306965,1363.138473364706,{'reg__alpha': 1000.0},False
+norway,random_forest,3168.218778999112,2399.032367309562,"{'max_depth': 4, 'min_samples_leaf': 1, 'n_estimators': 200}",False
+norway,gradient_boosting,3096.3877860607095,2285.3549799669654,"{'learning_rate': 0.05, 'max_depth': 2, 'n_estimators': 100}",False
+portugal,baseline,4845.535471803824,3494.8346428571426,{},False
+portugal,ridge,3974.4149738174556,2926.968423751095,{'reg__alpha': 1000.0},True
+portugal,random_forest,4677.537713637111,3424.0585014459643,"{'max_depth': 8, 'min_samples_leaf': 1, 'n_estimators': 100}",False
+portugal,gradient_boosting,4741.148289289644,3465.5770883731443,"{'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 200}",False
+singapore,baseline,8560.70232534012,5763.007155172414,{},False
+singapore,ridge,6365.593373164523,4644.602796765097,{'reg__alpha': 1.0},True
+singapore,random_forest,8451.191571524856,5692.5255409592555,"{'max_depth': 4, 'min_samples_leaf': 1, 'n_estimators': 200}",False
+singapore,gradient_boosting,8445.178814406681,5688.628912518132,"{'learning_rate': 0.05, 'max_depth': 2, 'n_estimators': 200}",False
+spain,baseline,374.822647902373,296.3228263546797,{},False
+spain,ridge,364.81933280604767,321.73668200630345,{'reg__alpha': 1000.0},True
+spain,random_forest,436.64728864200373,382.7639988500937,"{'max_depth': 4, 'min_samples_leaf': 5, 'n_estimators': 100}",False
+spain,gradient_boosting,587.2104835748781,498.90395991314904,"{'learning_rate': 0.05, 'max_depth': 2, 'n_estimators': 100}",False
+united_kingdom,baseline,25158.873572707067,19587.29930049261,{},False
+united_kingdom,ridge,21170.198240390302,17381.68696082898,{'reg__alpha': 1000.0},True
+united_kingdom,random_forest,49026.49400894757,42021.510974923796,"{'max_depth': 8, 'min_samples_leaf': 1, 'n_estimators': 200}",False
+united_kingdom,gradient_boosting,33565.46594163018,28170.379991565453,"{'learning_rate': 0.05, 'max_depth': 2, 'n_estimators': 100}",False

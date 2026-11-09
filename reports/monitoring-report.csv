@@ -1,0 +1,12 @@
+country,model,n_production_days,rmse,mae,mape_pct,baseline_rmse,holdout_rmse,outlier_rate,wasserstein,wasserstein_threshold,drift_alert,performance_alert
+all,ridge,98,70457.16,61338.27,24.33,64440.43,24566.52,0.0,61301.25,10113.94,True,True
+eire,gradient_boosting,98,1410.12,1177.65,29.97,1185.26,4741.05,0.0,2596.71,491.03,True,False
+france,gradient_boosting,98,8255.82,5931.65,67.8,8115.63,1189.27,0.235,5216.24,127.31,True,True
+germany,ridge,98,2489.86,2059.84,38.75,1623.07,574.51,0.286,2149.1,106.27,True,True
+hong_kong,random_forest,98,3082.66,2334.92,388.35,4054.27,1346.26,0.286,1171.68,197.61,True,True
+netherlands,ridge,98,270.67,221.33,26.5,327.28,299.09,0.061,191.01,39.18,True,False
+norway,baseline,98,241.33,214.22,41.87,241.33,1166.29,0.194,2176.22,805.93,True,False
+portugal,ridge,98,975.0,798.76,264.32,1472.89,3974.41,0.071,738.52,176.17,True,False
+singapore,ridge,98,6362.7,3896.45,139.11,9216.92,6365.59,0.224,3092.21,300.86,True,False
+spain,ridge,98,519.32,392.08,29.7,498.14,364.82,0.0,705.22,111.47,True,True
+united_kingdom,ridge,98,66154.23,53411.66,23.71,63803.34,21170.2,0.0,51780.91,9929.64,True,True

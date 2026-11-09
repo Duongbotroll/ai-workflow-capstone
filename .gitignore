@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/*/ts-data/
+models/test-*
+logs/*.log
